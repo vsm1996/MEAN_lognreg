@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Login and Registration - MEAN stack</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+        <script src="main.js"></script>
+    </head>
+    <body>
+        
+    <h3>REGISTER! </h3>
+    <form action='/' method='post'>
+        <label>First Name:</label>
+        <input type='text' name='fname'>
+        <br/>
+        <label>Last Name:</label>
+        <input type='text' name='lname'>
+        <br/>
+        <label>Email:</label>
+        <input type='text' name='email'>
+        <br/>
+        <label>Birthday</label>
+        <input type='text' name='birthday' value='month/day/year'>
+        <br/>
+        <label>Password</label>
+        <input type='password' name='password'>
+        <br/>
+        <button>Submit</button>
+    </form>
+
+    <h3>LOG IN! </h3>
+    <form action='/logged' method='post'>
+        <label>Email: </label>
+        <input type='text' name='email'>
+        <label>Password: </label>
+        <input type='password' name='password'>
+        <button>Submit</button>
+    </form>
+    </body>
+</html>
